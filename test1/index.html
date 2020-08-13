@@ -1,31 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	
-	<title>the first one</title>
-	  <link rel="stylesheet" href="CSS/style.css">
+		
+	<title>the first one</title> 
+	<link rel="stylesheet"  href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-	<h1>OUR MENU</h1>
-	<div class="row">
-		
-		<section class="container col-lg-4 col-md-6 col-sm-12">
-			<h2 id='para1'>Chicken</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.</p>
-		</section>
-	<section class="container col-lg-4 col-md-6 col-sm-12">
-		<h3 id='para2'>Beef</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.</p>
-		</section>
-		<section class="container col-lg-4 col-md-6 col-sm-12">
-			<h4 id='para3'>Sushi</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.</p>
-		</section>
-	</div>
-    
+	<header>
+		<nav id="hed" class="navbar navbar-default" >
+			<div class="container-fluid">
+			<div id="titl" class="navbar-brand">
+              <h1 class="nav-brand">FOOD LLC.</h1>
+            </div>
+			
+				<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-card-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> 
+  <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+  <path fill-rule="evenodd" d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+  <circle cx="3.5" cy="5.5" r=".5"/>
+  <circle cx="3.5" cy="8" r=".5"/>
+  <circle cx="3.5" cy="10.5" r=".5"/>
+</svg>
+            
+            
+          </button>
+			<div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right ">
+            <li>
+              <a href="#par1">
+                <span class="item"></span>Chicken</a>
+                <hr class="visible-xs">
+            </li>
+            <li>
+              <a href="#par2">
+                <span class="item"></span>Beef</a>
+                <hr class="visible-xs">
+            </li>
+            <li>
+              <a href="#par3">
+                <span class="item"></span>Sushi</a>
+                <hr class="visible-xs">
+            </li>
+           </ul>       
+              </div>
+			</div>
+			
+			
+		</nav>
+	</header>
+	<h1 >OUR MENU</h1> 
+	<div class="container">
+		<div class="row">
+			<div id="par1" class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div>
+					<h2>CHICKEN</h2><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.</p>
+				</div>
+			</div>
+			<div id="par2" class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div>
+				<h2>BEEF</h2><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.</p>
+			    </div>
+		    </div>
+			<div id="par3" class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+				<div>
+					<h2>SUSHI</h2><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.</p>
+				</div>
+			</div>
+		</div>
+	</div> 
+	
 
+    
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
