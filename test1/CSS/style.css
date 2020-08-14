@@ -28,7 +28,10 @@ h2
 
   font-size: 16px;
 }
-
+.container
+{
+	width: 100%;
+}
 #par1 p,#par2 p,#par3 p 
 { 
  
