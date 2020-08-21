@@ -124,11 +124,12 @@ body {
 
 /* HOME PAGE */
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+  box-shadow: 0 0 20px #FFD55A;
+  border: 2px solid #293250;
 }
 
 #menu-tile, #specials-tile, #map-tile {
+   box-shadow: 0 0 10px #FFD55A;
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -142,8 +143,12 @@ body {
 #menu-tile {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
+  
+  border: 2px solid #293250;
 }
 #specials-tile {
+  
+  border: 2px solid #293250;
   background: url('../images/specials-tile.jpg') no-repeat;
   background-position: center;
 }
