@@ -1,19 +1,24 @@
 <div class="menu-item-tile col-md-4">
+  
   <div class="row">
-    <div class="col-sm-6 col-xs-12">
-      <div class="menu-item-photo">
+    <div class="container col-sm-12">
+      <div class="row">
+    <div class="menu-item-photo col-sm-6 col-xs-12">
+      
         <div>{{short_name}}</div>
         <img class="img-responsive" width="250" height="150" src="images/menu/{{catShortName}}/{{short_name}}.jpg" alt="Item">
-      </div>
+      
    
     </div>
     <div class="col-sm-6 col-xs-12">
       <h3 class="menu-item-title">{{name}}</h3>
-     
+      </div>
+    </div>
+  </div>
+  
+      <div class="menu-item-price col-sm-12 "><p class="pull-left">{{price_small}}<span > {{small_portion_name}}</span> {{price_large}} <span>{{large_portion_name}}</span></p><br><p class="menu-item-details pull-left ">{{description}}</p></div>
     </div>
   
-      <div class="menu-item-price col-sm-12"><p class="pull-left">{{price_small}}<span > {{small_portion_name}}</span> {{price_large}} <span>{{large_portion_name}}</span></p><br><p class="menu-item-details pull-left ">{{description}}</p></div>
-    </div>
    
   <hr class="visible-xs">
 </div>
